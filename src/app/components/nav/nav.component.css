@@ -6,7 +6,7 @@
     width: 13rem;
     color: white;
     background: rgb(42,180,127);
-    background: linear-gradient(90deg, rgba(42,180,127,1) 0%, rgba(168,170,189,1) 74%);
+    background: linear-gradient(90deg, rgb(96, 144, 148) 0%, rgb(114, 167, 167) 74%);
 }
 
 img {
@@ -25,7 +25,7 @@ img {
 
 .menu {
     margin: 1rem 0 0 1rem;
-    color: white;
-    background: rgb(42,180,127);
-    background: linear-gradient(90deg, rgba(42,180,127,1) 0%, rgba(168,170,189,1) 74%)
+    color: rgb(255, 255, 255);
+    background: rgb(24, 59, 175);
+    background: linear-gradient(90deg, rgb(96, 144, 148) 0%, rgb(114, 167, 167) 74%)
 }
