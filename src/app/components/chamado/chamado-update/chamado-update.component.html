@@ -20,7 +20,7 @@
       
       <div class="status-prioridade">
         <mat-form-field appearance="outline">
-            <mat-label>{{ retornaStatus(chamado.status) }}</mat-label>
+            <mat-label>STATUS ({{ retornaStatus(chamado.status) }})</mat-label>
 
             <mat-select
             
@@ -36,7 +36,7 @@
           </mat-form-field>
 
           <mat-form-field appearance="outline">
-            <mat-label>{{ retornaPrioridade(chamado.prioridade) }}</mat-label>
+            <mat-label>PRIORIDADE ({{ retornaPrioridade(chamado.prioridade) }})</mat-label>
 
             <mat-select
             
@@ -55,7 +55,7 @@
 
       <div class="tecnico">
         <mat-form-field class="full-width" appearance="outline">
-            <mat-label>{{ chamado.nomeTecnico }}</mat-label>
+            <mat-label>TÉCNICO ({{ chamado.nomeTecnico }})</mat-label>
 
             <mat-select
 
@@ -72,7 +72,7 @@
 
       <div class="cliente">
         <mat-form-field class="full-width" appearance="outline">
-            <mat-label>{{ chamado.nomeCliente }}</mat-label>
+            <mat-label>CLIENTE ({{ chamado.nomeCliente }})</mat-label>
 
             <mat-select
 
